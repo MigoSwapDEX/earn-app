@@ -8,7 +8,7 @@ const pools: PoolConfig[] = [
     stakingToken: tokens.migo,
     earningToken: tokens.migo,
     contractAddress: {
-      1115: '0xea2661b0fCeC393B800fe35a6284786696B98F59',
+      1115: '0xA3BbEb6836d161DBc4a9605072fC387a079D5976',
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
       56: '0x496Cc0609D749216Bb2a999b683468649759D338',
     },

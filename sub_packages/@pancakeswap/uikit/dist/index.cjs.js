@@ -3667,7 +3667,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/brisepadco",
+                href: "https://t.me/migoswap",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -3722,7 +3722,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/Brisepadco",
+        href: "https://twitter.com/Migoswap",
     },
 ];
 var MENU_HEIGHT = 64;

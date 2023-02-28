@@ -4,7 +4,7 @@
     "stateMutability": "nonpayable",
     "inputs": [
       { "type": "address", "name": "_migo", "internalType": "contract MigoToken" },
-      { "type": "address", "name": "_gert", "internalType": "contract GertBar" },
+      { "type": "address", "name": "_ichigo", "internalType": "contract Ichigo" },
       { "type": "address", "name": "_devaddr", "internalType": "address" },
       { "type": "uint256", "name": "_migoPerBlock", "internalType": "uint256" },
       { "type": "uint256", "name": "_startBlock", "internalType": "uint256" }
@@ -124,8 +124,8 @@
   {
     "type": "function",
     "stateMutability": "view",
-    "outputs": [{ "type": "address", "name": "", "internalType": "contract GertBar" }],
-    "name": "gert",
+    "outputs": [{ "type": "address", "name": "", "internalType": "contract Ichigo" }],
+    "name": "ichigo",
     "inputs": []
   },
   {

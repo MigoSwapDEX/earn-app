@@ -11,7 +11,7 @@ export const BSC_BLOCK_TIME = 15
 // CAKE_PER_BLOCK details
 // 40 MIGO is minted per block
 // 20 MIGO per block is sent to Burn pool (A farm just for burning cake)
-// 10 MIGO per block goes to MIGO gertbar pool
+// 10 MIGO per block goes to MIGO ICHIGO pool
 // 10 MIGO per block goes to Yield farms and lottery
 // MIGO_PER_BLOCK in config/index.ts = 40 as we only change the amount sent to the burn pool which is effectively a farm.
 // MIGO/Block in src/views/Home/components/CakeStats.tsx = 20 (40 - Amount sent to burn pool)

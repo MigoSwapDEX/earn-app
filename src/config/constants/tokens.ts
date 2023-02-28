@@ -6,7 +6,7 @@ const tokens = {
   migo: {
     symbol: 'MIGO',
     address: {
-      1115: '0x339C29784380d59043009294f55CB339bf53239e',
+      1115: '0xB76b0Eac05C94b7d5467399F2E193b0f8077ABD7',
       56: '',
       97: '',
     },
@@ -31,12 +31,12 @@ const tokens = {
       97: '',
     },
     decimals: 18,
-    projectLink: 'https://bitgert.com/',
+    projectLink: 'https://migoswap.org/',
   },
-  gert: {
-    symbol: 'GERT',
+  ichigo: {
+    symbol: 'ICHIGO',
     address: {
-      1115: '0x5057BBC3A847A79156a6cF628B75E6539adD87d2',
+      1115: '0x8183847ecEa0e59D3E2EB51dD6462B5343dFacec',
       56: '',
       97: '',
     },

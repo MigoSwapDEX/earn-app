@@ -104,36 +104,36 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   //   icon: 'IfoIcon',
   //   href: '/ifo',
   // },
-  // {
-  //   label: t('More'),
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: t('Contact'),
-  //       href: 'https://t.me/brisepadco',
-  //     },
-  //     {
-  //       label: t('Voting'),
-  //       href: 'https://voting.pancakeswap.finance',
-  //     },
-  //     {
-  //       label: t('Github'),
-  //       href: 'https://github.com/brisepad',
-  //     },
-  //     {
-  //       label: t('Docs'),
-  //       href: 'https://docs.pancakeswap.finance',
-  //     },
-  //     {
-  //       label: t('Blog'),
-  //       href: 'https://brisedaily.com/',
-  //     },
-  //     {
-  //       label: t('Merch'),
-  //       href: 'https://pancakeswap.creator-spring.com/',
-  //     },
-  //   ],
-  // },
+  {
+    label: t('More'),
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: t('Contact'),
+        href: 'hello@migoswap.org',
+      },
+      // {
+      //   label: t('Voting'),
+      //   href: 'https://voting.pancakeswap.finance',
+      // },
+      // {
+      //   label: t('Github'),
+      //   href: 'https://github.com/brisepad',
+      // },
+      {
+        label: t('Docs'),
+        href: 'https://migoswap.gitbook.io/migodoc/',
+      },
+      {
+        label: t('Blog'),
+        href: 'https://medium.com/@migoswap',
+      },
+      // {
+      //   label: t('Merch'),
+      //   href: 'https://pancakeswap.creator-spring.com/',
+      // },
+    ],
+  },
 ]
 
 export default config

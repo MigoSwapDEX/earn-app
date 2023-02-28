@@ -9,13 +9,13 @@ const farms: FarmConfig[] = [
     pid: 0,
     lpSymbol: 'MIGO',
     lpAddresses: {
-      1115: '0xF26006408112be347c23FDBa03F7bC3566519655',
+      1115: '0xB76b0Eac05C94b7d5467399F2E193b0f8077ABD7',
       97: '',
       56: '',
     },
     lpDecimals: 18,
     isLpToken: false,
-    token: tokens.gert,
+    token: tokens.ichigo,
     quoteToken: tokens.wbnb,
   },
   {
