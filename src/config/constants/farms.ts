@@ -20,16 +20,29 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 1,
-    lpSymbol: 'MIGO-CORE LP',
+    lpSymbol: 'CORE-CTT LP',
     lpAddresses: {
-      1115: '0xD4B79Bf75fE455e11C07d08521681883d94b80ee',
+      1115: '0xa03acc22cb496c4b0c0d9189286d50ca62320f33',
       97: '',
       56: '',
     },
     lpDecimals: 18,
     isLpToken: true,
-    token: tokens.migo,
-    quoteToken: tokens.wbnb,
+    token: tokens.wbnb,
+    quoteToken: tokens.ctt,
+  },
+  {
+    pid: 2,
+    lpSymbol: 'CORE-MIGO LP',
+    lpAddresses: {
+      1115: '0x3ada4d9ca69309409ca7c3df27cdacccd397376f',
+      97: '',
+      56: '',
+    },
+    lpDecimals: 18,
+    isLpToken: true,
+    token: tokens.wbnb,
+    quoteToken: tokens.migo,
   },
   // {
   //   pid: 3,

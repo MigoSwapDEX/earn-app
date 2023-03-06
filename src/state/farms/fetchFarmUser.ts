@@ -65,7 +65,7 @@ export const fetchFarmUserEarnings = async (account: string, farmsToFetch: FarmC
       params: [farm.pid, account],
     }
   })
-
+  // console.info('farm calls: ', calls)
   const rawEarnings = await multicall(masterchefABI, calls)
   const parsedEarnings = rawEarnings.map((earnings) => {
     return new BigNumber(earnings).toJSON()

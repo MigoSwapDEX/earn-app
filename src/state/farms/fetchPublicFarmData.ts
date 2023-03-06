@@ -87,7 +87,7 @@ const fetchFarm = async (farm: Farm): Promise<PublicFarmData> => {
   const lpTotalInQuoteToken = quoteTokenAmountMc.times(new BigNumber(2))
 
   // For farms that tokens instead of LP tokens. Get token price in Brise via the Router
-  let lpTokenPriceInBrise = new BigNumber(0)
+  const lpTokenPriceInBrise = new BigNumber(0)
   let brisePriceUsd = new BigNumber(0)
   if(!farm.isLpToken){
     // wbnb === wbrise
@@ -95,7 +95,7 @@ const fetchFarm = async (farm: Farm): Promise<PublicFarmData> => {
     brisePriceUsd = new BigNumber(0.00003)
     // brisePriceUsd = await getTokenUSDPrice(tokens.wbnb.address, 100, tokens.wbnb.decimals, tokens.usdt.address, tokens.usdt.decimals)
     
-    lpTokenPriceInBrise = await getTokenUSDPrice(lpAddresses, 1, farm.lpDecimals, tokens.wbnb.address, tokens.wbnb.decimals)
+    // lpTokenPriceInBrise = await getTokenUSDPrice(lpAddresses, 1, farm.lpDecimals, tokens.wbnb.address, tokens.wbnb.decimals)
   }
   const lpTokenPriceUsd = lpTokenPriceInBrise.times(brisePriceUsd).div(100)
 

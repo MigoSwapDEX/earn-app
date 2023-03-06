@@ -48,11 +48,11 @@ const App: React.FC = () => {
   usePollCoreFarmData()
 
 
-  useEffect(() => {
-    if (account) {
-      window.hashmail?.identify(account)
-    }
-  }, [account])
+  // useEffect(() => {
+  //   if (account) {
+  //     window.hashmail?.identify(account)
+  //   }
+  // }, [account])
   return (
     <Router history={history}>
       <ResetCSS />

@@ -13,16 +13,16 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://migoswap.org/',
   },
-  // bpad: {
-  //   symbol: 'BPAD',
-  //   address: {
-  //     1115: '0x71946a5C9dA7C95ee804a9BE561EC15A3F286A7D',
-  //     56: '',
-  //     97: '',
-  //   },
-  //   decimals: 8,
-  //   projectLink: 'https://brisepad.co/',
-  // },
+  ctt: {
+    symbol: 'CTT',
+    address: {
+      1115: '0x08C0d123D65d7499b06DFcfbA964CE44FF11d4cB',
+      56: '',
+      97: '',
+    },
+    decimals: 6,
+    projectLink: 'https://migoswap.org/',
+  },
   wbnb: {
     symbol: 'WCORE',
     address: {
