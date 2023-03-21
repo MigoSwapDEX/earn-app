@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Heading, Text, BaseLayout } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Page from 'components/layout/Page'
+import DateCountdown from 'react-date-countdown-timer'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
 import LotteryCard from 'views/Home/components/LotteryCard'
 import CakeStats from 'views/Home/components/CakeStats'
@@ -10,6 +11,7 @@ import TotalValueLockedCard from 'views/Home/components/TotalValueLockedCard'
 import EarnAPRCard from 'views/Home/components/EarnAPRCard'
 import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 import WinCard from 'views/Home/components/WinCard'
+import CountDownTimer from 'components/CountDownTimer'
 
 const Hero = styled.div`
   align-items: center;
@@ -93,20 +95,24 @@ const Home: React.FC = () => {
         <Text color="tertiary">{t('Best AMM on CoreDao.')}</Text>
       </Hero>
       <div>
+        {/* <DateCountdown style={{ color: "white" }} dateTo='January 01, 2023 00:00:00 GMT+03:00' /> */}
         <Cards>
+          <CountDownTimer />
           <FarmStakingCard />
           {/* <LotteryCard /> */}
         </Cards>
-        <CTACards>
+
+        {/* <CTACards>
           <EarnAPRCard />
           <EarnAssetCard />
-          {/* <WinCard /> */}
-        </CTACards>
+          <WinCard />
+        </CTACards> */}
         {/* <Cards>
           <CakeStats />
           <TotalValueLockedCard />
         </Cards> */}
       </div>
+
     </Page>
   )
 }
