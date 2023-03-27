@@ -97,7 +97,7 @@ const Home: React.FC = () => {
       <div>
         {/* <DateCountdown style={{ color: "white" }} dateTo='January 01, 2023 00:00:00 GMT+03:00' /> */}
         <Cards>
-          <CountDownTimer />
+          {/* <CountDownTimer /> */}
           <FarmStakingCard />
           {/* <LotteryCard /> */}
         </Cards>
